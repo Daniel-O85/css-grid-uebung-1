@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main table {
+        border: solid black 1px;
+        padding: 5px;
+      }
+      main div table th {
+        background-color: blue;
+        padding: 5px;
+      }
+      main div table td {
+        background-color: blueviolet;
+        padding: 5px;
+      }
+      main div p {
+        max-width: 500px;
+        background-color: aqua;
+        margin: 10px;
+        border: dotted black 1px;
+        padding: 5px;
+      }
+      img {
+        width: 200px;
+      }
+      main {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      main div table .fluss {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>
+        <table>
+          <tr>
+            <th>Land</th>
+            <th>Stadt</th>
+          </tr>
+          <tr>
+            <td>Deutschland</td>
+            <td>Leverkusen</td>
+          </tr>
+          <tr>
+            <td>Spanien</td>
+            <td>
+              Madrid<br />
+              <div>A.</div>
+              <div>B.</div>
+              <div>C.</div>
+            </td>
+          </tr>
+        </table>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, esse
+          aliquid! Voluptate, alias ex illo sint perspiciatis odit laudantium<br />
+          eos perferendis voluptatibus officiis debitis doloremque nostrum ullam
+          eaque ducimus maxime reiciendis tenetur numquam expedita
+          accusamusbr<br />
+          quos rerum illum? Rerum aut aperiam ipsum doloribus earum. Voluptates
+          voluptas soluta omnis nostrum incidunt dolore, alias a maxime nihil
+        </p>
+        <img src="./pizza.png" />
+      </div>
+      <div>
+        <table>
+          <tr>
+            <th>Obst</th>
+            <th>Gemüse</th>
+          </tr>
+          <tr>
+            <td>Apfel</td>
+            <td>Gurke</td>
+          </tr>
+          <tr>
+            <td>Banane</td>
+            <td class="fluss">
+              Tomate
+              <div>A.</div>
+              <div>B.</div>
+              <div>C.</div>
+            </td>
+          </tr>
+        </table>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, esse
+          aliquid! Voluptate, alias ex illo sint perspiciatis odit laudantium<br />
+          eos perferendis voluptatibus officiis debitis doloremque nostrum ullam
+          eaque ducimus maxime reiciendis tenetur numquam expedita
+          accusamusbr<br />
+          quos rerum illum? Rerum aut aperiam ipsum doloribus earum. Voluptates
+          voluptas soluta omnis nostrum incidunt dolore, alias a maxime nihil
+        </p>
+        <img src="./bratwurst.jpg" />
+      </div>
+      <div>
+        <table>
+          <tr>
+            <th>Ballsport</th>
+            <th>Motorsport</th>
+          </tr>
+          <tr>
+            <td>Fußball</td>
+            <td>Formel 1</td>
+          </tr>
+          <tr>
+            <td>Basketball</td>
+            <td>
+              DTM
+              <div>A.</div>
+              <div>B.</div>
+              <div>C.</div>
+            </td>
+          </tr>
+        </table>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, esse
+          aliquid! Voluptate, alias ex illo sint perspiciatis odit laudantium<br />
+          eos perferendis voluptatibus officiis debitis doloremque nostrum ullam
+          eaque ducimus maxime reiciendis tenetur numquam expedita
+          accusamusbr<br />
+          quos rerum illum? Rerum aut aperiam ipsum doloribus earum. Voluptates
+          voluptas soluta omnis nostrum incidunt dolore, alias a maxime nihil
+        </p>
+        <img src="./döner.jpg" />
+      </div>
+    </main>
+  </body>
+</html>
